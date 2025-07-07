@@ -31,21 +31,21 @@ const Services = () => {
         {
           title: 'Custom Web Development',
           description: 'Tailored websites built from scratch using the latest technologies',
-          price: 'From $2,500',
+          price: 'From Rs2,500',
           features: ['React/Next.js', 'Responsive Design', 'SEO Optimized', 'Performance Tuned'],
           timeline: '4-8 weeks'
         },
         {
           title: 'E-commerce Solutions',
           description: 'Complete online stores with payment integration and inventory management',
-          price: 'From $3,500',
+          price: 'From Rs3,500',
           features: ['Shopping Cart', 'Payment Gateway', 'Inventory System', 'Admin Dashboard'],
           timeline: '6-10 weeks'
         },
         {
           title: 'Web Application Development',
           description: 'Complex web applications with advanced functionality',
-          price: 'From $5,000',
+          price: 'From Rs5,000',
           features: ['Custom Features', 'Database Design', 'API Integration', 'User Management'],
           timeline: '8-16 weeks'
         }
@@ -60,21 +60,21 @@ const Services = () => {
         {
           title: 'SEO Optimization',
           description: 'Comprehensive SEO strategy to improve search rankings',
-          price: 'From $800/month',
+          price: 'From Rs800/month',
           features: ['Keyword Research', 'On-page SEO', 'Link Building', 'Technical SEO'],
           timeline: '3-6 months'
         },
         {
           title: 'Social Media Marketing',
           description: 'Strategic social media campaigns across all platforms',
-          price: 'From $1,200/month',
+          price: 'From Rs1,200/month',
           features: ['Content Creation', 'Community Management', 'Paid Advertising', 'Analytics'],
           timeline: 'Ongoing'
         },
         {
           title: 'PPC Advertising',
           description: 'Targeted pay-per-click campaigns for immediate results',
-          price: 'From $500/month + ad spend',
+          price: 'From Rs500/month + ad spend',
           features: ['Google Ads', 'Facebook Ads', 'Campaign Optimization', 'ROI Tracking'],
           timeline: '2-4 weeks setup'
         }
@@ -89,21 +89,21 @@ const Services = () => {
         {
           title: 'AI Chatbots',
           description: 'Intelligent chatbots for customer service and lead generation',
-          price: 'From $1,500',
+          price: 'From Rs1,500',
           features: ['Natural Language Processing', '24/7 Availability', 'Multi-platform', 'Analytics'],
           timeline: '3-4 weeks'
         },
         {
           title: 'Predictive Analytics',
           description: 'AI-powered insights for business decision making',
-          price: 'From $2,500',
+          price: 'From Rs2,500',
           features: ['Data Analysis', 'Trend Prediction', 'Custom Dashboards', 'Reporting'],
           timeline: '4-6 weeks'
         },
         {
           title: 'Content Generation',
           description: 'AI-assisted content creation and optimization',
-          price: 'From $800/month',
+          price: 'From Rs800/month',
           features: ['Auto-generation', 'SEO Optimization', 'Multi-format', 'Quality Control'],
           timeline: '1-2 weeks'
         }
