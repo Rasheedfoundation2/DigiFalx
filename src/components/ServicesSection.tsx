@@ -1,4 +1,3 @@
-
 import { 
   Globe, 
   Search, 
@@ -154,3 +153,4 @@ const ServicesSection = () => {
 };
 
 export default ServicesSection;
+

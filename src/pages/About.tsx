@@ -33,7 +33,7 @@ const About = () => {
     {
       name: 'Rasheed Shaikh',
       role: 'CEO & Founder',
-      image: '/placeholder.svg',
+      image: '\employee\rasheedsir.jpeg',
       bio: '10+ years in digital marketing with expertise in growth strategies'
     },
     {
@@ -42,18 +42,6 @@ const About = () => {
       image: '/placeholder.svg', 
       bio: 'Full-stack developer specializing in AI integration and scalable solutions'
     },
-    {
-      name: 'Emily Davis',
-      role: 'Creative Director',
-      image: '/placeholder.svg',
-      bio: 'Award-winning designer with a passion for user-centric experiences'
-    },
-    {
-      name: 'Alex Rodriguez',
-      role: 'Marketing Strategist',
-      image: '/placeholder.svg',
-      bio: 'Data-driven marketer with proven track record in conversion optimization'
-    }
   ];
 
   const achievements = [
@@ -75,7 +63,7 @@ const About = () => {
               <Star className="h-4 w-4 mr-2" />
               About Digifalx
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold gradient-text">
+            <h1 className="text-4xl md:text-6xl font-trebuchet ms gradient-text">
               Pioneering Digital Excellence Since 2018
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">

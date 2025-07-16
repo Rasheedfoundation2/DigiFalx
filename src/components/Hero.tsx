@@ -38,7 +38,7 @@ const Hero = () => {
 
       {/* Main Content */}
       <div className="relative z-10 w-full h-full flex flex-col justify-center items-center px-4 text-center">
-        <div className="max-w-5xl w-full mx-auto space-y-6 animate-fade-in">
+        <div className="max-w-6xl w-full mx-auto space-y-6 animate-fade-in">
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 glass dark:glass-dark rounded-full px-4 py-2 text-sm font-medium text-blue-700 dark:text-blue-300 hover:bg-white/90 dark:hover:bg-slate-800/90 transition-all duration-300 hover:scale-105">
             <Sparkles className="h-4 w-4" />
