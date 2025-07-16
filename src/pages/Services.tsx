@@ -1,13 +1,14 @@
-
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { 
-  Globe, 
-  Search, 
-  Smartphone, 
-  BarChart3, 
-  Palette, 
+import ClientSlider from '@/components/ClientSlider';
+
+import {
+  Globe,
+  Search,
+  Smartphone,
+  BarChart3,
+  Palette,
   Brain,
   Code,
   Target,
@@ -19,7 +20,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-
 
 const Services = () => {
   const serviceCategories = [
@@ -115,7 +115,7 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-12 bg-gradient-to-br from-purple-50 via-blue-50 to-cyan-50">
         <div className="container mx-auto px-4 text-center">
@@ -216,7 +216,7 @@ const Services = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
+            {[ 
               { step: '01', title: 'Discovery', description: 'Understanding your goals and requirements' },
               { step: '02', title: 'Strategy', description: 'Developing a comprehensive action plan' },
               { step: '03', title: 'Execution', description: 'Implementing solutions with precision' },
@@ -230,6 +230,11 @@ const Services = () => {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Client Slider Section */}
+      <section className="py-16 bg-white">
+        <ClientSlider />
       </section>
 
       <Footer />
