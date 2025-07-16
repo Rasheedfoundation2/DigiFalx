@@ -33,7 +33,7 @@ const About = () => {
     {
       name: 'Rasheed Shaikh',
       role: 'CEO & Founder',
-      image: '\employee\rasheedsir.jpeg',
+      image: '/assest/WhatsApp Image 2025-07-16 at 17.00.12.jpeg',
       bio: '10+ years in digital marketing with expertise in growth strategies'
     },
     {
@@ -101,11 +101,14 @@ const About = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 p-8 flex items-center justify-center">
+              <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-99 to-blue-99 p-8 flex items-center justify-center">
+                <img
+                  src="/assest\WhatsApp Image 2025-07-16 at 16.19.06.jpeg"
+                  alt="WhatsApp Innovation"
+                  className="rounded-3xl shadow-lg w-full h-full object-cover"
+                />
                 <div className="text-center space-y-4">
-                  <Zap className="h-16 w-16 text-purple-600 mx-auto" />
-                  <h3 className="text-2xl font-bold gradient-text">Innovation Driven</h3>
-                  <p className="text-gray-600">Pushing boundaries with AI and emerging technologies</p>
+                 
                 </div>
               </div>
             </div>
@@ -117,7 +120,7 @@ const About = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+            <h2 className="text-3xl md:text-4xl font-trebuchet ms text-gray-900 mb-4">Our Core Values</h2>
             <p className="text-xl text-gray-600">
               The principles that guide everything we do and shape our relationships with clients
             </p>
@@ -143,7 +146,7 @@ const About = () => {
       <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Expert Team</h2>
+            <h2 className="text-3xl md:text-4xl font-trebuchet ms text-gray-900 mb-4">Meet Our Expert Team</h2>
             <p className="text-xl text-gray-600">
               Talented professionals united by a passion for digital excellence and client success
             </p>

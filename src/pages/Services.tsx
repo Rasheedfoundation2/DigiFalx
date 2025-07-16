@@ -124,7 +124,7 @@ const Services = () => {
               <Zap className="h-4 w-4 mr-2" />
               Premium Services
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold gradient-text">
+            <h1 className="text-4xl md:text-6xl font-trebuchet ms gradient-text">
               Transform Your Business with Our Expert Services
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -191,7 +191,7 @@ const Services = () => {
                           ))}
                         </ul>
 
-                        <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold rounded-full group">
+                        <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-trebuchet ms rounded-full group">
                           Get Started
                           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                         </Button>
@@ -209,7 +209,7 @@ const Services = () => {
       <section className="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Proven Process</h2>
+            <h2 className="text-3xl md:text-4xl font-trebuchet ms mb-4">Our Proven Process</h2>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               We follow a systematic approach to ensure every project delivers exceptional results
             </p>

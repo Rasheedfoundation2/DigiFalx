@@ -119,7 +119,7 @@ const Analytics = () => {
               <BarChart3 className="h-4 w-4 mr-2" />
               Analytics Dashboard
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold gradient-text">
+            <h1 className="text-4xl md:text-6xl font-trebuchet ms gradient-text">
               Real-Time Analytics & Insights
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">

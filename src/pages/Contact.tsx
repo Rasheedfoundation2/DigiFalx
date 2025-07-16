@@ -93,7 +93,7 @@ const Contact = () => {
               <MessageSquare className="h-4 w-4 mr-2" />
               Get In Touch
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold gradient-text">
+            <h1 className="text-4xl md:text-6xl font-trebuchet ms gradient-text">
               Let's Start Your Digital Transformation
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">

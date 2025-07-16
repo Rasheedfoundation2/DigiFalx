@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-trebuchet ms leading-tight">
             <span className="block text-slate-900 dark:text-white">Elevate Your</span>
             <span className="block gradient-text dark:gradient-text-dark animate-gradient-x">
               {rotatingTexts[currentText]}
