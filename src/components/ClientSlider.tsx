@@ -83,7 +83,7 @@ const ClientSlider = () => {
 
   return (
     <div className="w-full py-16 bg-white">
-      <h2 className="text-4xl font-bold text-center mb-9 text-gray-800">Our Clients</h2>
+      <h2 className="text-6xl font-bold text-center mb-6 text-gray-800">Our Clients</h2>
 
       <Swiper
         slidesPerView={5}
