@@ -11,7 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Analytics from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
-
+import LandingPage from "./pages/landingpage";
 const queryClient = new QueryClient();
 
 const App = () => (

@@ -89,7 +89,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-blue-100 dark:text-slate-700">
                 <MapPin className="h-5 w-5 text-blue-200 dark:text-slate-600" />
-                <span>123 Digital Street, Tech City, TC 12345</span>
+                <span>Digifalx, Office no 219, Annapoorna Premises, Plot 8, Sector 18, Vashi, Navi Mumbai - 400703</span>
+                <span>digifalx dubai</span>
               </div>
             </div>
           </div>
