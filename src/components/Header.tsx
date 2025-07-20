@@ -36,7 +36,11 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
               <img 
+<<<<<<< HEAD
                 src="assest\88548745-e315-483d-98d2-d60d2558a9e8.png" 
+=======
+                src="\assest\88548745-e315-483d-98d2-d60d2558a9e8.png" 
+>>>>>>> 5d5eb0e (fixed some minor error)
                 alt="Digifalx Logo" 
                 className="h-10 w-10 object-contain group-hover:scale-110 transition-transform duration-300"
               />

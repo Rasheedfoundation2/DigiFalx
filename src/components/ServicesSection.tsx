@@ -139,7 +139,7 @@ const ServicesSection = () => {
                 <Button 
                   variant="outline"
                   size="lg"
-                  className="border-2 border-white dark:border-slate-900 text-white dark:text-slate-900 hover:bg-white dark:hover:bg-slate-900 hover:text-blue-600 dark:hover:text-blue-400 font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105"
+                  className="bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800 font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105"
                 >
                   View All Services
                 </Button>
