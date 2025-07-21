@@ -36,12 +36,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
               <img 
-<<<<<<< HEAD
-                src="assest\88548745-e315-483d-98d2-d60d2558a9e8.png" 
-=======
-                src="\assest\88548745-e315-483d-98d2-d60d2558a9e8.png" 
->>>>>>> 5d5eb0e (fixed some minor error)
-                alt="Digifalx Logo" 
+                src="\assest\88548745-e315-483d-98d2-d60d2558a9e8.png" alt="Digifalx Logo" 
                 className="h-10 w-10 object-contain group-hover:scale-110 transition-transform duration-300"
               />
               <div className="absolute inset-0 h-10 w-10 bg-gradient-to-r from-blue-600/20 to-purple-600/20 dark:from-blue-400/20 dark:to-purple-400/20 rounded-full blur-md group-hover:opacity-75 transition-opacity"></div>
