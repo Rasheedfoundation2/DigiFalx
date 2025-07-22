@@ -30,7 +30,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-[0.4]"
       >
-        <source src="/videos/Tech_Website_Video_Generation_Request.mp4" type="video/mp4" />
+        <source src="/videos/Tech_Website_Video_Generation_Request.mp" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
