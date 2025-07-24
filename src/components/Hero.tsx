@@ -30,7 +30,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-[0.4]"
       >
-        <source src="/videos/Tech_Website_Video_Generation_Request.mp" type="video/mp4" />
+        <source src="public\videos\WhatsApp Video 2025-07-24 at 15.23.21.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -65,14 +65,6 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <Button
-              variant="outline"
-              size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-2xl hover:scale-105 transition-all duration-300"
-            >
-              <Play className="mr-2 h-5 w-5" />
-              Watch Demo
-            </Button>
           </div>
         </div>
       </div>
