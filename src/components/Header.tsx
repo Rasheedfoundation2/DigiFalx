@@ -67,12 +67,20 @@ const Header = () => {
             })}
           </nav>
 
-          {/* CTA & Theme */}
+          {/* CTA + Theme + Login */}
           <div className="hidden md:flex items-center gap-4">
             <ThemeToggle />
+            <Link to="/login">
+              <Button
+                variant="ghost"
+                className="text-white hover:text-blue-400 font-medium transition-all"
+              >
+                Login
+              </Button>
+            </Link>
             <Link to="/contact">
               <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-5 py-2 rounded-full font-semibold shadow-lg transition-all duration-300 hover:scale-105">
-                LOG IN
+                Get Started
               </Button>
             </Link>
           </div>
@@ -106,6 +114,16 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
+
+            <Link to="/login" onClick={() => setIsOpen(false)}>
+              <Button
+                variant="ghost"
+                className="w-full text-blue-400 hover:underline"
+              >
+                Login
+              </Button>
+            </Link>
+
             <Link to="/contact" onClick={() => setIsOpen(false)}>
               <Button className="w-full mt-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-md">
                 Get Started
