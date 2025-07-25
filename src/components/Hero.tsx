@@ -30,7 +30,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-[0.4]"
       >
-        <source src="public\videos\WhatsApp Video 2025-07-24 at 15.23.21.mp4" type="video/mp4" />
+        <source src="public\videos\Digifalx (4).mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -65,6 +65,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
+            
           </div>
         </div>
       </div>

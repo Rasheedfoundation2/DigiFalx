@@ -5,6 +5,7 @@ import ServicesSection from '@/components/ServicesSection';
 import AIFeatures from '@/components/AIFeatures';
 import AIChat from '@/components/AIChat';
 import Footer from '@/components/Footer';
+import BlogSection from '@/components/blogsection';
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <ServicesSection />
       <AIFeatures />
       <AIChat />
+      <BlogSection />
       <Footer />
     </div>
   );

@@ -23,6 +23,7 @@ const Header = () => {
     { name: 'About', path: '/about' },
     { name: 'Analytics', path: '/analytics' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Blog', path: '/blog' },
   ];
 
   return (
@@ -78,11 +79,7 @@ const Header = () => {
                 Login
               </Button>
             </Link>
-            <Link to="/contact">
-              <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-5 py-2 rounded-full font-semibold shadow-lg transition-all duration-300 hover:scale-105">
-                Get Started
-              </Button>
-            </Link>
+
           </div>
 
           {/* Mobile Menu Icon */}
@@ -124,9 +121,12 @@ const Header = () => {
               </Button>
             </Link>
 
-            <Link to="/contact" onClick={() => setIsOpen(false)}>
-              <Button className="w-full mt-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-md">
-                Get Started
+            <Link to="/signup" onClick={() => setIsOpen(false)}>
+              <Button
+                variant="ghost"
+                className="w-full text-blue-400 hover:underline"
+              >
+                Signup
               </Button>
             </Link>
           </div>
