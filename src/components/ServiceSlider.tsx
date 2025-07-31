@@ -20,7 +20,7 @@ interface Service {
 const serviceData: Service[] = [
     {
         title: "Web Development",
-        image: "/services/web-development.webp",
+        image: "public\assest\Website design &  development.webp",
         description: "Custom websites and web apps tailored to your business needs."
     },
     {
@@ -69,7 +69,7 @@ const ServiceSlider = () => {
 
             <Swiper
                 slidesPerView={5}
-                spaceBetween={7}
+                spaceBetween={4}
                 loop={true}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
                 modules={[Autoplay]}
@@ -82,7 +82,7 @@ const ServiceSlider = () => {
             >
                 {serviceData.map((service, idx) => (
                     <SwiperSlide key={idx}>
-                        <div className="relative w-full max-w-[220px] mx-auto group">
+                        <div className="relative w-full max-w-[100%] mx-auto group">
                             <img
                                 src={service.image}
                                 alt={service.title}

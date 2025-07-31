@@ -12,7 +12,8 @@ import Contact from "./pages/Contact";
 import Analytics from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
 import Blog from "./pages/blog";
-import Login from "./pages/login";
+import LoginPage from "./pages/LoginPage";  
+
 const queryClient = new QueryClient();
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
                 <Route path="/analytics" element={<Analytics />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="*" element={<NotFound />} />
-                <Route path="/login" element={<Login />} />
+                <Route path="/login" element={<LoginPage />} /> {/* Login Page Route */}
               </Routes>
             </BrowserRouter>
           </TooltipProvider>

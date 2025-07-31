@@ -6,6 +6,8 @@ import AIFeatures from '@/components/AIFeatures';
 import AIChat from '@/components/AIChat';
 import Footer from '@/components/Footer';
 import BlogSection from '@/components/blogsection';
+import ClientSlider from '@/components/ClientSlider';
+import ServiceSlider from '@/components/ServiceSlider';
 
 const Index = () => {
   return (
@@ -16,6 +18,8 @@ const Index = () => {
       <AIFeatures />
       <AIChat />
       <BlogSection />
+      <ServiceSlider/>
+      <ClientSlider/>
       <Footer />
     </div>
   );

@@ -86,7 +86,7 @@ const ClientSlider = () => {
 
       <Swiper
         slidesPerView={5}
-        spaceBetween={7} // reduced gap between slides
+        spaceBetween={4} // reduced gap between slides
         loop={true}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         modules={[Autoplay]}
@@ -99,7 +99,7 @@ const ClientSlider = () => {
       >
         {clientData.map((client, idx) => (
           <SwiperSlide key={idx}>
-            <div className="relative w-full max-w-[220px] mx-auto group">
+            <div className="relative w-full max-w-[100%] mx-auto group">
               <img
                 src={client.image}
                 alt={client.name}
@@ -117,7 +117,7 @@ const ClientSlider = () => {
       {/* Modal */}
       {selectedClient && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-xl shadow-xl relative max-w-md w-full">
+          <div className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white rounded-xl shadow-xl relative max-w-md w-full">
             <button
               className="absolute top-2 right-3 text-xl text-gray-600"
               onClick={() => setSelectedClient(null)}

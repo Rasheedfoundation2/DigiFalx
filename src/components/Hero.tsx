@@ -28,9 +28,9 @@ const Hero = () => {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-[0.4]"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-[1.3]"
       >
-        <source src="public\videos\Digifalx (4).mp4" type="video/mp4" />
+        <source src="public\videos\website intro 2 ver-1.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
