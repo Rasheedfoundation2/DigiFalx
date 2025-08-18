@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ThemeToggle } from '@/components/ThemeToggle';
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* CTA + Theme + Login */}
           <div className="hidden md:flex items-center gap-4">
-            <ThemeToggle />
+            
             <Link to="/login">
               <Button
                 variant="ghost"
@@ -84,7 +84,6 @@ const Header = () => {
 
           {/* Mobile Menu Icon */}
           <div className="md:hidden flex items-center gap-2">
-            <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-md bg-slate-800 hover:bg-slate-700 transition-all"
