@@ -82,7 +82,12 @@ const BlogSection = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
+     <section
+  className="py-24 text-white"
+  style={{
+    background: 'linear-gradient(to right, #110b2cff, #110b2cff)'
+  }}
+>
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
@@ -90,10 +95,10 @@ const BlogSection = () => {
             <CalendarDays className="h-4 w-4" />
             <span>Latest Articles</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-white-900">
             Insights & Resources
           </h2>
-          <p className="text-xl text-gray-600 leading-relaxed">
+          <p className="text-xl text-white-600 leading-relaxed">
             Discover our latest blog posts covering AI, marketing strategies, SEO trends,
             and more to help grow your business.
           </p>
@@ -195,7 +200,7 @@ const BlogSection = () => {
         {/* View All Button */}
         <div className="text-center mt-12">
         <Link to="/blog" className="inline-block">
-          <Button variant="outline" className="px-8 py-6 text-lg">
+          <Button variant="outline" className="px-8 py-6 text-lg bg-black text-gray-100 hover:bg-gray-100">
             View All Blog Posts
           </Button>
         </Link> 

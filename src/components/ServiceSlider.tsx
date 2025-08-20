@@ -17,40 +17,40 @@ interface Service {
     description: string;
 }
 
-const serviceData: Service[] = [
+const newLocal = [
     {
         title: "Web Development",
-        image: "public\assest\Website design &  development.webp",
+        image: "public\clients\anagal.webp",
         description: "Custom websites and web apps tailored to your business needs."
     },
     {
         title: "Mobile Apps",
-        image: "/services/mobile-apps.webp",
+        image: "public\clients\anagal.webp",
         description: "Native and cross-platform mobile solutions for iOS and Android."
     },
     {
         title: "UI/UX Design",
-        image: "/services/ui-ux.webp",
+        image: "public\clients\anagal.webp",
         description: "Intuitive and engaging user experiences for digital products."
     },
     {
         title: "Cloud Solutions",
-        image: "/services/cloud.webp",
+        image: "public\clients\anagal.webp",
         description: "Scalable cloud infrastructure and migration services."
     },
     {
         title: "E-Commerce",
-        image: "/services/ecommerce.webp",
+        image: "public\clients\anagal.webp",
         description: "Robust online stores with secure payment integrations."
     },
     {
         title: "SEO Optimization",
-        image: "/services/seo.webp",
+        image: "/public\clients\anagal.webp",
         description: "Improve your website ranking and organic traffic."
     },
     {
         title: "Digital Marketing",
-        image: "/services/marketing.webp",
+        image: "public\clients\anagal.webp",
         description: "Comprehensive strategies to grow your online presence."
     },
     {
@@ -59,6 +59,7 @@ const serviceData: Service[] = [
         description: "Actionable insights from your business data."
     },
 ];
+const serviceData: Service[] = newLocal;
 
 const ServiceSlider = () => {
     const [selectedService, setSelectedService] = useState<Service | null>(null);

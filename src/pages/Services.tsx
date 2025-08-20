@@ -127,7 +127,12 @@ const Services = () => {
       </section>
 
       {/* Services Tabs */}
-      <section className="py-16">
+          <section
+  className="py-24 text-white"
+  style={{
+    background: 'linear-gradient(to right, #110b2cff, #110b2cff)'
+  }}
+>
         <div className="container mx-auto px-4">
           <Tabs defaultValue="web-dev" className="w-full">
             <TabsList className="grid w-full grid-cols-3 max-w-2xl mx-auto mb-12 h-14">
@@ -197,7 +202,12 @@ const Services = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+          <section
+  className="py-24 text-white"
+  style={{
+    background: 'linear-gradient(to right, #110b2cff, #110b2cff)'
+  }}
+>
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-trebuchet ms mb-4">Our Proven Process</h2>

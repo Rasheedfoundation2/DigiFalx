@@ -95,18 +95,24 @@ const AIFeatures = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section
+  className="py-24 text-white"
+  style={{
+    background: 'linear-gradient(to right, #110b2cff, #110b2cff)'
+  }}
+>
+
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <div className="inline-flex items-center space-x-2 bg-purple-100 rounded-full px-4 py-2 text-sm font-medium text-purple-700">
+          <div className="inline-flex items-center space-x-2 bg-purple-800 rounded-full px-4 py-2 text-sm font-medium text-purple-200">
             <Brain className="h-4 w-4" />
             <span>AI-Powered Features</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-white">
             Experience AI Integration
           </h2>
-          <p className="text-xl text-gray-600 leading-relaxed">
+          <p className="text-xl text-gray-300 leading-relaxed">
             Try our AI-powered tools that help optimize your content, improve SEO, 
             and provide intelligent insights for your business growth.
           </p>
@@ -116,21 +122,21 @@ const AIFeatures = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {aiFeatures.map((feature) => (
             <Dialog key={feature.id}>
-              <Card className="group transition-all duration-300 hover:shadow-2xl hover:scale-105 border-0">
+              <Card className="group transition-all duration-300 hover:shadow-2xl hover:scale-105 border border-gray-700 bg-gray-800">
                 <CardHeader>
                   <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r ${feature.color} text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
                     <feature.icon className="h-6 w-6" />
                   </div>
-                  <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
+                  <CardTitle className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
                     {feature.title}
                   </CardTitle>
-                  <CardDescription className="text-gray-600 leading-relaxed">
+                  <CardDescription className="text-gray-400 leading-relaxed">
                     {feature.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <DialogTrigger asChild>
-                    <Button variant="outline" className="w-full">
+                    <Button variant="outline" className="w-full border-gray-600 text-white hover:bg-gray-700">
                       Try Demo
                     </Button>
                   </DialogTrigger>
@@ -138,10 +144,10 @@ const AIFeatures = () => {
               </Card>
 
               {/* Dialog Content */}
-              <DialogContent className="max-w-2xl">
+              <DialogContent className="max-w-2xl bg-gray-900 text-white border border-gray-700">
                 <DialogHeader>
-                  <DialogTitle>{feature.title}</DialogTitle>
-                  <DialogDescription>{feature.description}</DialogDescription>
+                  <DialogTitle className="text-white">{feature.title}</DialogTitle>
+                  <DialogDescription className="text-gray-400">{feature.description}</DialogDescription>
                 </DialogHeader>
 
                 {feature.id === 'content-generation' && (
@@ -150,16 +156,17 @@ const AIFeatures = () => {
                       value={contentInput}
                       onChange={(e) => setContentInput(e.target.value)}
                       placeholder="Enter a topic like 'web development'"
+                      className="bg-gray-800 border-gray-700 text-white placeholder-gray-500"
                     />
                     <Button
                       onClick={generateContent}
-                      className="bg-gradient-to-r from-purple-600 to-blue-600"
+                      className="bg-gradient-to-r from-purple-600 to-blue-600 text-white"
                     >
                       <Zap className="h-4 w-4 mr-2" />
                       Generate Content
                     </Button>
                     {generatedContent && (
-                      <div className="p-4 bg-purple-50 rounded-lg text-sm text-gray-700 border">
+                      <div className="p-4 bg-purple-900/30 rounded-lg text-sm text-gray-200 border border-purple-700">
                         {generatedContent}
                       </div>
                     )}
@@ -172,20 +179,21 @@ const AIFeatures = () => {
                       value={seoKeywords}
                       onChange={(e) => setSeoKeywords(e.target.value)}
                       placeholder="e.g., digital marketing agency"
+                      className="bg-gray-800 border-gray-700 text-white placeholder-gray-500"
                     />
                     <Button
                       onClick={analyzeSEO}
-                      className="bg-gradient-to-r from-green-600 to-emerald-600"
+                      className="bg-gradient-to-r from-green-600 to-emerald-600 text-white"
                     >
                       <BarChart3 className="h-4 w-4 mr-2" />
                       Analyze SEO
                     </Button>
                     {seoResults.length > 0 && (
-                      <div className="bg-green-50 p-4 rounded-lg border text-sm space-y-2">
+                      <div className="bg-green-900/30 p-4 rounded-lg border border-green-700 text-sm space-y-2">
                         {seoResults.map((result, idx) => (
-                          <div key={idx} className="flex justify-between">
+                          <div key={idx} className="flex justify-between text-gray-200">
                             <span>{result.keyword}</span>
-                            <span className="text-xs text-gray-500">
+                            <span className="text-xs text-gray-400">
                               Difficulty: {result.difficulty}, Volume: {result.volume}, Opportunity: {result.opportunity}
                             </span>
                           </div>
@@ -196,7 +204,7 @@ const AIFeatures = () => {
                 )}
 
                 {feature.id === 'performance-insights' && (
-                  <div className="text-gray-700">
+                  <div className="text-gray-300">
                     <p className="mb-4">Example insights you can track:</p>
                     <ul className="list-disc pl-6 space-y-2">
                       <li>Bounce Rate & Session Duration</li>
@@ -207,9 +215,9 @@ const AIFeatures = () => {
                 )}
 
                 {feature.id === 'chatbot-preview' && (
-                  <div className="bg-gray-50 border p-4 rounded-lg">
-                    <p className="text-sm text-gray-700 mb-2">Simulated Chatbot Response:</p>
-                    <div className="bg-white p-3 rounded-lg border text-sm">
+                  <div className="bg-gray-800 border border-gray-700 p-4 rounded-lg">
+                    <p className="text-sm text-gray-300 mb-2">Simulated Chatbot Response:</p>
+                    <div className="bg-gray-900 p-3 rounded-lg border border-gray-700 text-sm text-white">
                       👋 Hi! How can I assist you today? I can help with product info, pricing, or connect you with support.
                     </div>
                   </div>
